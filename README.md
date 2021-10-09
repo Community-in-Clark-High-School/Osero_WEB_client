@@ -1,7 +1,11 @@
 # クラークオセロAI用のWEBクライアント
 
-## Dev
+## デプロイ方法
 
-```python
-python test/test_server.py
+```shell
+Osero_WEB_Client_User="USER"
+Osero_WEB_Client_PASS="PASS"
+bundle install
+bundle exec ruby app.rb
 ```
+
