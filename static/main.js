@@ -10,13 +10,16 @@ var TURN=1;
 var OnClick=false;
 
 function Set_osero_view(x,y,v){
+    const size=50;
     let td=$(`#osero_${String(y)+String(x)}`);
+    td.children().remove();
     if(v==1){
-        td.text("●")
+        td.append(`<img src="Black.png" width="${size}" height="${size}" />`)
+        //td.text("●")
     }else if(v==2){
-        td.text("〇")
+        td.append( `<img src="White.png" width="${size}" height="${size}" />`)
     }else{
-        td.text("　")
+        td.append(`<img src="None.png" width="${size}" height="${size}" />`)
     }
 }
 
