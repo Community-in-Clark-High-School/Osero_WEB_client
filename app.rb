@@ -2,7 +2,9 @@ require 'sinatra'
 require 'sinatra/reloader'
 require "faraday"
 
+Rack::Handler.register 'Webrick', 'Rack::Handler::WEBrick'
 set :public_folder, File.dirname(__FILE__) + '/static'
+set :bind, '0.0.0.0'
 
 get '/' do
   erb :index
@@ -20,3 +22,4 @@ get '/api' do
 
 end
 
+set :port, 80
