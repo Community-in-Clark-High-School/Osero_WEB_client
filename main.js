@@ -1,6 +1,6 @@
-const URL="api"
-const playerName="Dummy";
-const password="Dummy";
+const URL="https://j8tsh0tqzf.execute-api.ap-northeast-1.amazonaws.com/default/"
+const playerName="AI2020_ASAKO";
+const password="mendokusai";
 
 var connect_id="";
 var Game_id="";
