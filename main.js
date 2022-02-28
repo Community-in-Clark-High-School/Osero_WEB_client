@@ -30,7 +30,8 @@ function request(v,f){
         headers: {
             'Content-Type': 'text/plain'
         },
-        credentials: 'omit'
+        credentials: 'omit',
+        mode: 'cors'
     })
     .then(f)
     .catch(error => {
