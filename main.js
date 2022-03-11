@@ -1,4 +1,4 @@
-const URL="https://gu3u0ossb5.execute-api.ap-northeast-1.amazonaws.com/default";
+const URL="https://xdbtvahxg2.execute-api.ap-northeast-1.amazonaws.com/";
 const playerName="AI2020_ASAKO";
 const password="mendokusai";
 
